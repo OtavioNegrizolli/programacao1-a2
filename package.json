@@ -1,0 +1,13 @@
+{
+  "name": "aula-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch --inspect-brk src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
