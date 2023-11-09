@@ -11,7 +11,7 @@ export default class Product {
     /** @type string */
     #subcategory;
     /** @type string */
-    #measurementUnity;
+    #measurementUnit;
     
 
     /**
@@ -27,13 +27,13 @@ export default class Product {
         description,
         category,
         subcategory,
-        measurementUnity
+        measurementUnit
     }) {
         this.#id = id || null;
         this.#description = description;
         this.#category = category;
         this.#subcategory = subcategory;
-        this.#measurementUnity = measurementUnity;
+        this.#measurementUnit = measurementUnit;
     }
 
 
@@ -72,8 +72,8 @@ export default class Product {
      * @description the product sale measure unit like 'KG'
      * @returns {string} the subcategory of the product
      */
-    get measurementUnity() {
-        return this.#measurementUnity;
+    get measurementUnit() {
+        return this.#measurementUnit;
     }
 
 }

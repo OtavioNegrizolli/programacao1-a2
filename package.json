@@ -5,7 +5,8 @@
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "start": "node --watch --inspect-brk src/main.js"
+    "start": "node --watch --inspect src/main.js",
+    "start:entry": "node --watch --inspect-brk src/main.js"
   },
   "keywords": [],
   "author": "",
